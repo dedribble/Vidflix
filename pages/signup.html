@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form action="POST" id="signup-form">
+            <label>Firstname</label>
+            <input type="text" name="firstname" id="firstname"><br>
+            <label>Lastname</label>
+            <input type="text" name="lastname" id="lastname"><br>
+            <label>Email</label>
+            <input type="email" name="email" id="email"><br>
+            <label>Password</label>
+            <input type="password" name="password" id="password"><br>
+            <label for="isCreator">Are you a creator?</label>
+            <input type="checkbox" id="isCreator" name="isCreator"><br><br>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="./login.html">Log in</a>.</p>
+
+    </div>
+    
+    <script src="../js/script.js"></script>     
+</body>
+</html>
