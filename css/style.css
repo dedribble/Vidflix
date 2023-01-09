@@ -185,17 +185,18 @@ main > .list > ul > .lst {
     align-items: center;
     justify-content: center;
     list-style: none;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     width: 500px;
     height: 220px;
     padding: 12px;
 }
 
 main > .list > ul > .lst > .vid {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-right: 12px;
     height: 200px;
     width: 302px;
+    margin-bottom: 50px;
 }
 
 main > .list > ul > .lst > .add {
